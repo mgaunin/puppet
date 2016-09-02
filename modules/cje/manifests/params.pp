@@ -35,9 +35,9 @@
 # Copyright 2016 Your name here, unless otherwise noted.
 #
 class cje::params {
-    $install_version = 'installed' 
-    $install_baseurl = "http://nectar-downloads.cloudbees.com/jenkins-enterprise/1.642/rpm"
-    $install_gpgkey = "http://nectar-downloads.cloudbees.com/jenkins-enterprise/1.642/rpm/cloudbees.com.key"
+    $install_version = 'installed'
+    $install_baseurl = "http://nectar-downloads.cloudbees.com/jenkins-enterprise/1.651/rpm"
+    $install_gpgkey = "http://nectar-downloads.cloudbees.com/jenkins-enterprise/1.651/rpm/cloudbees.com.key"
     $service_enable = 'true'
     $service_ensure = 'running'
     $service_hasstatus = 'true'
